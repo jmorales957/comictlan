@@ -83,7 +83,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Comictlan Esperanos Muy Pronnto
+                    Comictlan Esperanos Muy Pronto
                 </div>
                 <div class="fb-page" data-href="https://www.facebook.com/comictlan.aguascalientes/" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/comictlan.aguascalientes/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/comictlan.aguascalientes/">Comictlan Aguascalientes</a></blockquote></div>                
             </div>
