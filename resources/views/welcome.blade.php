@@ -72,7 +72,7 @@
   <section id="intro">
     <div class="intro-container wow fadeIn">
       <h1 class="mb-4 pb-0"><br><span>Comictlan</span>La fiesta mas grande de la imaginacion</h1>
-      <p class="mb-4 pb-0">22-23 Junio, Salon de Eventos Medrano, Aguascalientes</p>
+      <p class="mb-4 pb-0">22-23 Junio de 2019, Centro de Convenciones Medrano, Aguascalientes</p>
       <a href="https://www.youtube.com/watch?v=dg_VqV-AabE" class="venobox play-btn mb-4" data-vbtype="video"
         data-autoplay="true"></a>
       <a href="#about" class="about-btn scrollto">Acerca del Evento</a>
@@ -95,11 +95,11 @@
           </div>
           <div class="col-lg-3">
             <h3>Donde</h3>
-            <p>Calle, Av. José Ma. Chávez 902, Aguascalientes</p>
+            <p>Calle, Av. José Ma. Chávez 902,Centro de Convenciones Medrano, Aguascalientes</p>
           </div>
           <div class="col-lg-3">
             <h3>cuando</h3>
-            <p>Sabado a Domingo<br>22-23 Junio</p>
+            <p>Sabado a Domingo<br>22-23 Junio de 2019</p>
           </div>
         </div>
       </div>
@@ -217,8 +217,8 @@
     <section id="schedule" class="section-with-bg">
       <div class="container wow fadeInUp">
         <div class="section-header">
-          <h2>Event Schedule</h2>
-          <p>Here is our event schedule</p>
+          <h2>Programa del Evento</h2>
+          <p>Nuestros Horarios</p>
         </div>
 
         <ul class="nav nav-tabs" role="tablist">
@@ -836,7 +836,7 @@
       <div class="container">
 
         <div class="section-header">
-          <h2>Buy Tickets</h2>
+          <h2>Entradas</h2>
           <p>Velit consequatur consequatur inventore iste fugit unde omnis eum aut.</p>
         </div>
 
@@ -857,7 +857,7 @@
                 </ul>
                 <hr>
                 <div class="text-center">
-                  <button type="button" class="btn" data-toggle="modal" data-target="#buy-ticket-modal" data-ticket-type="standard-access">Buy Now</button>
+                  <button type="button" class="btn" data-toggle="modal" data-target="#buy-ticket-modal" data-ticket-type="standard-access">Comprar</button>
                 </div>
               </div>
             </div>
@@ -878,7 +878,7 @@
                 </ul>
                 <hr>
                 <div class="text-center">
-                  <button type="button" class="btn" data-toggle="modal" data-target="#buy-ticket-modal" data-ticket-type="pro-access">Buy Now</button>
+                  <button type="button" class="btn" data-toggle="modal" data-target="#buy-ticket-modal" data-ticket-type="pro-access">Comprar</button>
                 </div>
               </div>
             </div>
@@ -900,7 +900,7 @@
                 </ul>
                 <hr>
                 <div class="text-center">
-                  <button type="button" class="btn" data-toggle="modal" data-target="#buy-ticket-modal" data-ticket-type="premium-access">Buy Now</button>
+                  <button type="button" class="btn" data-toggle="modal" data-target="#buy-ticket-modal" data-ticket-type="premium-access">Comprar</button>
                 </div>
 
               </div>
@@ -915,7 +915,7 @@
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h4 class="modal-title">Buy Tickets</h4>
+              <h4 class="modal-title">Comprar Entrada</h4>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
@@ -937,7 +937,7 @@
                   </select>
                 </div>
                 <div class="text-center">
-                  <button type="submit" class="btn">Buy Now</button>
+                  <button type="submit" class="btn">Comprar</button>
                 </div>
               </form>
             </div>
@@ -955,8 +955,8 @@
       <div class="container">
 
         <div class="section-header">
-          <h2>Contact Us</h2>
-          <p>Nihil officia ut sint molestiae tenetur.</p>
+          <h2>Contactanos</h2>
+          <p>Mandanos un mensaje nosotros nos ponemos en contacto.</p>
         </div>
 
         <div class="row contact-info">
@@ -964,7 +964,7 @@
           <div class="col-md-4">
             <div class="contact-address">
               <i class="ion-ios-location-outline"></i>
-              <h3>Address</h3>
+              <h3>Domicilio</h3>
               <address>A108 Adam Street, NY 535022, USA</address>
             </div>
           </div>
@@ -972,7 +972,7 @@
           <div class="col-md-4">
             <div class="contact-phone">
               <i class="ion-ios-telephone-outline"></i>
-              <h3>Phone Number</h3>
+              <h3>Numero de Telefono</h3>
               <p><a href="tel:+155895548855">+1 5589 55488 55</a></p>
             </div>
           </div>
@@ -1080,7 +1080,7 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong>TheEvent</strong>. All Rights Reserved
+        &copy; Copyright <strong>Comictlan</strong>. Todos los derechos reservados
       </div>
       <div class="credits">
         <!--
