@@ -111,17 +111,17 @@
     <section id="speakers" class="wow fadeInUp">
       <div class="container">
         <div class="section-header">
-          <h2>Event Speakers</h2>
-          <p>Here are some of our speakers</p>
+          <h2>Speakers</h2>
+          <p>Aquí están algunos de nuestros speakers</p>
         </div>
 
         <div class="row">
           <div class="col-lg-4 col-md-6">
             <div class="speaker">
-              <img src="{{asset('template/img/speakers/1.jpg')}}" alt="Speaker 1" class="img-fluid">
+              <img src="{{asset('template/img/speakers/7.jpg')}}" alt="Speaker 1" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.html">Brenden Legros</a></h3>
-                <p>Quas alias incidunt</p>
+                <h3><a href="speaker-details.html">Juan Carlos Tinoco</a></h3>
+                <p>Actor del Doblaje</p>
                 <div class="social">
                   <a href=""><i class="fa fa-twitter"></i></a>
                   <a href=""><i class="fa fa-facebook"></i></a>
@@ -133,10 +133,10 @@
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="speaker">
-              <img src="{{asset('template/img/speakers/2.jpg')}}" alt="Speaker 2" class="img-fluid">
+              <img src="{{asset('template/img/speakers/8.jpg')}}" alt="Speaker 2" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.html">Hubert Hirthe</a></h3>
-                <p>Consequuntur odio aut</p>
+                <h3><a href="speaker-details.html">Adam (otra vez lunes show)</a></h3>
+                <p>Youtuber</p>
                 <div class="social">
                   <a href=""><i class="fa fa-twitter"></i></a>
                   <a href=""><i class="fa fa-facebook"></i></a>
@@ -148,10 +148,10 @@
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="speaker">
-              <img src="{{asset('template/img/speakers/3.jpg')}}" alt="Speaker 3" class="img-fluid">
+              <img src="{{asset('template/img/speakers/9.jpg')}}" alt="Speaker 3" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.html">Cole Emmerich</a></h3>
-                <p>Fugiat laborum et</p>
+                <h3><a href="speaker-details.html">Andres Gutiérrez</a></h3>
+                <p>Actor del Doblaje</p>
                 <div class="social">
                   <a href=""><i class="fa fa-twitter"></i></a>
                   <a href=""><i class="fa fa-facebook"></i></a>
@@ -163,10 +163,10 @@
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="speaker">
-              <img src="{{asset('template/img/speakers/4.jpg')}}" alt="Speaker 4" class="img-fluid">
+              <img src="{{asset('template/img/speakers/10.jpg')}}" alt="Speaker 4" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.html">Jack Christiansen</a></h3>
-                <p>Debitis iure vero</p>
+                <h3><a href="speaker-details.html">El canal del patho</a></h3>
+                <p>Youtuber</p>
                 <div class="social">
                   <a href=""><i class="fa fa-twitter"></i></a>
                   <a href=""><i class="fa fa-facebook"></i></a>
@@ -176,7 +176,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6">
+          {{-- <div class="col-lg-4 col-md-6">
             <div class="speaker">
               <img src="{{asset('template/img/speakers/5.jpg')}}" alt="Speaker 5" class="img-fluid">
               <div class="details">
@@ -205,7 +205,7 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> --}}
         </div>
       </div>
 
@@ -218,18 +218,18 @@
       <div class="container wow fadeInUp">
         <div class="section-header">
           <h2>Programa del Evento</h2>
-          <p>Nuestros Horarios</p>
+          <p>Esperalo muy pronto</p>
         </div>
 
-        <ul class="nav nav-tabs" role="tablist">
+        {{-- <ul class="nav nav-tabs" role="tablist">
           <li class="nav-item">
-            <a class="nav-link active" href="#day-1" role="tab" data-toggle="tab">Day 1</a>
+            <a class="nav-link active" href="#day-1" role="tab" data-toggle="tab">Dia 1</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#day-2" role="tab" data-toggle="tab">Day 2</a>
+            <a class="nav-link" href="#day-2" role="tab" data-toggle="tab">Dia 2</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#day-3" role="tab" data-toggle="tab">Day 3</a>
+            <a class="nav-link" href="#day-3" role="tab" data-toggle="tab">Dia 3</a>
           </li>
         </ul>
 
@@ -466,7 +466,7 @@
 
       </div>
 
-    </section>
+    </section> --}}
 
     <!--==========================
       Venue Section
@@ -476,20 +476,20 @@
       <div class="container-fluid">
 
         <div class="section-header">
-          <h2>Event Venue</h2>
-          <p>Event venue location info and gallery</p>
+          <h2>Lugar del Evento</h2>
+          <p>Información de la ubicación del evento y galería.</p>
         </div>
 
         <div class="row no-gutters">
           <div class="col-lg-6 venue-map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3702.658915969811!2d-102.29691028572887!3d21.870688363880067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8429eda42af7f7f1%3A0x45208a324170d6c3!2sEVENTOS+MEDRANO!5e0!3m2!1ses-419!2smx!4v1558116304002!5m2!1ses-419!2smx" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
           </div>
 
           <div class="col-lg-6 venue-info">
             <div class="row justify-content-center">
               <div class="col-11 col-lg-8">
-                <h3>Downtown Conference Center, New York</h3>
-                <p>Iste nobis eum sapiente sunt enim dolores labore accusantium autem. Cumque beatae ipsam. Est quae sit qui voluptatem corporis velit. Qui maxime accusamus possimus. Consequatur sequi et ea suscipit enim nesciunt quia velit.</p>
+                <h3>Centro de Convenciones Medrano, Aguascalientes</h3>
+                <p>El mejor lugar y las mejores instalaciones.</p>
               </div>
             </div>
           </div>
@@ -576,8 +576,8 @@
 
       <div class="container">
         <div class="section-header">
-          <h2>Hotels</h2>
-          <p>Her are some nearby hotels</p>
+          <h2>Hoteles</h2>
+          <p>Hoteles Cercanos</p>
         </div>
 
         <div class="row">
@@ -644,8 +644,8 @@
 
       <div class="container">
         <div class="section-header">
-          <h2>Gallery</h2>
-          <p>Check our gallery from the recent events</p>
+          <h2>Galeria</h2>
+          <p>Consulta nuestra galería de los últimos eventos.</p>
         </div>
       </div>
 
@@ -669,7 +669,7 @@
 
       <div class="container">
         <div class="section-header">
-          <h2>Sponsors</h2>
+          <h2>Patrocinadores</h2>
         </div>
 
         <div class="row no-gutters supporters-wrap clearfix">
@@ -744,55 +744,55 @@
               <ul id="faq-list">
 
                 <li>
-                  <a data-toggle="collapse" class="collapsed" href="#faq1">Non consectetur a erat nam at lectus urna duis? <i class="fa fa-minus-circle"></i></a>
+                  <a data-toggle="collapse" class="collapsed" href="#faq1">¿ Que incluye mi entrada ? <i class="fa fa-minus-circle"></i></a>
                   <div id="faq1" class="collapse" data-parent="#faq-list">
                     <p>
-                      Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+                      Depende del tipo de entrada que aqdquieras son los beneficios con los que cuntas en la seccion de "Entrdas" puedes ver a detalle lo que incluye cada una.
                     </p>
                   </div>
                 </li>
       
                 <li>
-                  <a data-toggle="collapse" href="#faq2" class="collapsed">Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque? <i class="fa fa-minus-circle"></i></a>
+                  <a data-toggle="collapse" href="#faq2" class="collapsed">¿ Como me inscribo a un concurso ? <i class="fa fa-minus-circle"></i></a>
                   <div id="faq2" class="collapse" data-parent="#faq-list">
                     <p>
-                      Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                      Por medio de nuestro facebook puedes mandarnos un mensaje y con gusto te atnderemos o el dia del evento presencialmente en la taquilla.
                     </p>
                   </div>
                 </li>
       
                 <li>
-                  <a data-toggle="collapse" href="#faq3" class="collapsed">Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi? <i class="fa fa-minus-circle"></i></a>
+                  <a data-toggle="collapse" href="#faq3" class="collapsed">¿ Puedo entrar con obajetos punzocortantes auque sean parte de mi cosplay ? <i class="fa fa-minus-circle"></i></a>
                   <div id="faq3" class="collapse" data-parent="#faq-list">
                     <p>
-                      Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+                      Por medidas de seguridad para el publico, contamos con seguridad que nos ayuda a evaluar que tan peligroso puede ser el ingreso del obejto en caso de que se retenga sera devuelto al momento de tu salida.
                     </p>
                   </div>
                 </li>
       
                 <li>
-                  <a data-toggle="collapse" href="#faq4" class="collapsed">Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla? <i class="fa fa-minus-circle"></i></a>
+                  <a data-toggle="collapse" href="#faq4" class="collapsed">¿ Hay descuento si vengo de otro estado ? <i class="fa fa-minus-circle"></i></a>
                   <div id="faq4" class="collapse" data-parent="#faq-list">
                     <p>
-                      Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                      Claro, en tanquilla mostrando una identificacion oficial que avale tu localidad obtendras un obsequio y un descuento especial.
                     </p>
                   </div>
                 </li>
       
                 <li>
-                  <a data-toggle="collapse" href="#faq5" class="collapsed">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? <i class="fa fa-minus-circle"></i></a>
+                  <a data-toggle="collapse" href="#faq5" class="collapsed">¿ Es Familiar ? <i class="fa fa-minus-circle"></i></a>
                   <div id="faq5" class="collapse" data-parent="#faq-list">
                     <p>
-                      Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
+                      Claro, Nos enfocamos principalmente en que nuestro speakers, concursos,etc sean para todas las edades.
                     </p>
                   </div>
                 </li>
       
                 <li>
-                  <a data-toggle="collapse" href="#faq6" class="collapsed">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor? <i class="fa fa-minus-circle"></i></a>
+                  <a data-toggle="collapse" href="#faq6" class="collapsed">¿ Quiero poner un local? <i class="fa fa-minus-circle"></i></a>
                   <div id="faq6" class="collapse" data-parent="#faq-list">
                     <p>
-                      Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque. Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Nibh tellus molestie nunc non blandit massa enim nec.
+                      Contactanos por medio de nuestro facebook y con gusto te atenderemos.
                     </p>
                   </div>
                 </li>
@@ -808,7 +808,7 @@
     <!--==========================
       Subscribe Section
     ============================-->
-    <section id="subscribe">
+    {{-- <section id="subscribe">
       <div class="container wow fadeInUp">
         <div class="section-header">
           <h2>Newsletter</h2>
@@ -827,7 +827,7 @@
         </form>
 
       </div>
-    </section>
+    </section> --}}
 
     <!--==========================
       Buy Ticket Section
@@ -837,10 +837,10 @@
 
         <div class="section-header">
           <h2>Entradas</h2>
-          <p>Velit consequatur consequatur inventore iste fugit unde omnis eum aut.</p>
+          <p>Adquiere tus entradas proximamente.</p>
         </div>
 
-        <div class="row">
+        {{-- <div class="row">
           <div class="col-lg-4">
             <div class="card mb-5 mb-lg-0">
               <div class="card-body">
@@ -908,7 +908,7 @@
           </div>
         </div>
 
-      </div>
+      </div> --}}
 
       <!-- Modal Order Form -->
       <div id="buy-ticket-modal" class="modal fade">
@@ -930,7 +930,7 @@
                 </div>
                 <div class="form-group">
                   <select id="ticket-type" name="ticket-type" class="form-control" >
-                    <option value="">-- Select Your Ticket Type --</option>
+                    <option value="">-- Selecciona tu tipo de boleto --</option>
                     <option value="standard-access">Standard Access</option>
                     <option value="pro-access">Pro Access</option>
                     <option value="premium-access">Premium Access</option>
@@ -1046,7 +1046,7 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="fa fa-angle-right"></i> <a href="#">Home</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#">Inicio</a></li>
               <li><i class="fa fa-angle-right"></i> <a href="#">About us</a></li>
               <li><i class="fa fa-angle-right"></i> <a href="#">Services</a></li>
               <li><i class="fa fa-angle-right"></i> <a href="#">Terms of service</a></li>
