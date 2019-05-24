@@ -9,8 +9,8 @@
   <meta content="" name="description">
 
   <!-- Favicons -->
-  <link href="{{asset('template/img/favicon.png')}}" rel="icon">
-  <link href="{{asset('template/img/apple-touch-icon.png')}}" rel="apple-touch-icon">
+  <link href="{{asset('template/img/logo2.png')}}" rel="icon">
+  <link href="{{asset('template/img/logo2.png')}}" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
@@ -45,8 +45,8 @@
 
       <div id="logo" class="pull-left">
         <!-- Uncomment below if you prefer to use a text logo -->
-        <!-- <h1><a href="#main">C<span>o</span>nf</a></h1>-->
-        <a href="#intro" class="scrollto"><img src="{{asset('template/img/logo.png')}}" alt="" title=""></a>
+         <h1 style="font-size:30px;"><a href="#main">C<span>o</span>mictlan</a></h1>
+        {{-- <a href="#intro" class="scrollto"><img src="{{asset('template/img/logo2.png')}}" alt="" title=""></a> --}}
       </div>
 
       <nav id="nav-menu-container">
@@ -59,7 +59,7 @@
           <li><a href="#hotels">Hoteles</a></li>
           <li><a href="#gallery">Galeria</a></li>
           <li><a href="#supporters">Patrocinadores</a></li>
-          <li><a href="#contact">Contacto</a></li>
+          {{-- <li><a href="#contact">Contacto</a></li> --}}
           <li class="buy-tickets"><a href="#buy-tickets">Entradas</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
@@ -71,7 +71,7 @@
   ============================-->
   <section id="intro">
     <div class="intro-container wow fadeIn">
-      <h1 class="mb-4 pb-0"><br><span>Comictlan</span>La fiesta mas grande de la imaginacion</h1>
+      <h1 class="mb-4 pb-0"><br><span>Comictlan</span> La fiesta mas grande de la imaginacion</h1>
       <p class="mb-4 pb-0">22-23 Junio de 2019, Centro de Convenciones Medrano, Aguascalientes</p>
       <a href="https://www.youtube.com/watch?v=dg_VqV-AabE" class="venobox play-btn mb-4" data-vbtype="video"
         data-autoplay="true"></a>
@@ -89,9 +89,7 @@
         <div class="row">
           <div class="col-lg-6">
             <h2>Acerca del Evento</h2>
-            <p>Sed nam ut dolor qui repellendus iusto odit. Possimus inventore eveniet accusamus error amet eius aut
-              accusantium et. Non odit consequatur repudiandae sequi ea odio molestiae. Enim possimus sunt inventore in
-              est ut optio sequi unde.</p>
+            <p>Comictlan cuanta con una trayectoria de mas de 15 años dedicados a hacer a su publico feliz, participa en nuestras dinamicas y concursos no esperes mas ven diviertete y permitenos ser parte de tu entretenimiento.</p>
           </div>
           <div class="col-lg-3">
             <h3>Donde</h3>
@@ -123,10 +121,10 @@
                 <h3><a href="speaker-details.html">Juan Carlos Tinoco</a></h3>
                 <p>Actor del Doblaje</p>
                 <div class="social">
-                  <a href=""><i class="fa fa-twitter"></i></a>
+                  {{-- <a href=""><i class="fa fa-twitter"></i></a>
                   <a href=""><i class="fa fa-facebook"></i></a>
                   <a href=""><i class="fa fa-google-plus"></i></a>
-                  <a href=""><i class="fa fa-linkedin"></i></a>
+                  <a href=""><i class="fa fa-linkedin"></i></a> --}}
                 </div>
               </div>
             </div>
@@ -135,13 +133,13 @@
             <div class="speaker">
               <img src="{{asset('template/img/speakers/8.jpg')}}" alt="Speaker 2" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.html">Adam (otra vez lunes show)</a></h3>
+                <h3><a href="#">Adam (otra vez lunes show)</a></h3>
                 <p>Youtuber</p>
                 <div class="social">
-                  <a href=""><i class="fa fa-twitter"></i></a>
+                  {{-- <a href=""><i class="fa fa-twitter"></i></a>
                   <a href=""><i class="fa fa-facebook"></i></a>
                   <a href=""><i class="fa fa-google-plus"></i></a>
-                  <a href=""><i class="fa fa-linkedin"></i></a>
+                  <a href=""><i class="fa fa-linkedin"></i></a> --}}
                 </div>
               </div>
             </div>
@@ -150,13 +148,13 @@
             <div class="speaker">
               <img src="{{asset('template/img/speakers/9.jpg')}}" alt="Speaker 3" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.html">Andres Gutiérrez</a></h3>
+                <h3><a href="#">Andres Gutiérrez</a></h3>
                 <p>Actor del Doblaje</p>
                 <div class="social">
-                  <a href=""><i class="fa fa-twitter"></i></a>
+                  {{-- <a href=""><i class="fa fa-twitter"></i></a>
                   <a href=""><i class="fa fa-facebook"></i></a>
                   <a href=""><i class="fa fa-google-plus"></i></a>
-                  <a href=""><i class="fa fa-linkedin"></i></a>
+                  <a href=""><i class="fa fa-linkedin"></i></a> --}}
                 </div>
               </div>
             </div>
@@ -165,13 +163,13 @@
             <div class="speaker">
               <img src="{{asset('template/img/speakers/10.jpg')}}" alt="Speaker 4" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.html">El canal del patho</a></h3>
+                <h3><a href="#">El canal del patho</a></h3>
                 <p>Youtuber</p>
                 <div class="social">
-                  <a href=""><i class="fa fa-twitter"></i></a>
+                  {{-- <a href=""><i class="fa fa-twitter"></i></a>
                   <a href=""><i class="fa fa-facebook"></i></a>
                   <a href=""><i class="fa fa-google-plus"></i></a>
-                  <a href=""><i class="fa fa-linkedin"></i></a>
+                  <a href=""><i class="fa fa-linkedin"></i></a> --}}
                 </div>
               </div>
             </div>
@@ -502,64 +500,64 @@
 
           <div class="col-lg-3 col-md-4">
             <div class="venue-gallery">
-              <a href="img/venue-gallery/1.jpg" class="venobox" data-gall="venue-gallery">
-                <img src="img/venue-gallery/1.jpg" alt="" class="img-fluid">
+              <a href="{{asset('template/img/venue-gallery/1.jpg')}}" class="venobox" data-gall="venue-gallery">
+                <img src="{{asset('template/img/venue-gallery/1.jpg')}}" alt="" class="img-fluid">
               </a>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4">
             <div class="venue-gallery">
-              <a href="img/venue-gallery/2.jpg" class="venobox" data-gall="venue-gallery">
-                <img src="img/venue-gallery/2.jpg" alt="" class="img-fluid">
+              <a href="{{asset('template/img/venue-gallery/2.jpg')}}" class="venobox" data-gall="venue-gallery">
+                <img src="{{asset('template/img/venue-gallery/2.jpg')}}" alt="" class="img-fluid">
               </a>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4">
             <div class="venue-gallery">
-              <a href="img/venue-gallery/3.jpg" class="venobox" data-gall="venue-gallery">
-                <img src="img/venue-gallery/3.jpg" alt="" class="img-fluid">
+              <a href="{{asset('template/img/venue-gallery/3.jpg')}}" class="venobox" data-gall="venue-gallery">
+                <img src="{{asset('template/img/venue-gallery/3.jpg')}}" alt="" class="img-fluid">
               </a>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4">
             <div class="venue-gallery">
-              <a href="img/venue-gallery/4.jpg" class="venobox" data-gall="venue-gallery">
-                <img src="img/venue-gallery/4.jpg" alt="" class="img-fluid">
+              <a href="{{asset('template/img/venue-gallery/4.jpg')}}" class="venobox" data-gall="venue-gallery">
+                <img src="{{asset('template/img/venue-gallery/4.jpg')}}" alt="" class="img-fluid">
               </a>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4">
             <div class="venue-gallery">
-              <a href="img/venue-gallery/5.jpg" class="venobox" data-gall="venue-gallery">
-                <img src="img/venue-gallery/5.jpg" alt="" class="img-fluid">
+              <a href="{{asset('template/img/venue-gallery/5.jpg')}}" class="venobox" data-gall="venue-gallery">
+                <img src="{{asset('template/img/venue-gallery/5.jpg')}}" alt="" class="img-fluid">
               </a>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4">
             <div class="venue-gallery">
-              <a href="img/venue-gallery/6.jpg" class="venobox" data-gall="venue-gallery">
-                <img src="img/venue-gallery/6.jpg" alt="" class="img-fluid">
+              <a href="{{asset('template/img/venue-gallery/6.jpg')}}" class="venobox" data-gall="venue-gallery">
+                <img src="{{asset('template/img/venue-gallery/6.jpg')}}" alt="" class="img-fluid">
               </a>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4">
             <div class="venue-gallery">
-              <a href="img/venue-gallery/7.jpg" class="venobox" data-gall="venue-gallery">
-                <img src="img/venue-gallery/7.jpg" alt="" class="img-fluid">
+              <a href="{{asset('template/img/venue-gallery/7.jpg')}}" class="venobox" data-gall="venue-gallery">
+                <img src="{{asset('template/img/venue-gallery/7.jpg')}}" alt="" class="img-fluid">
               </a>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4">
             <div class="venue-gallery">
-              <a href="img/venue-gallery/8.jpg" class="venobox" data-gall="venue-gallery">
-                <img src="img/venue-gallery/8.jpg" alt="" class="img-fluid">
+              <a href="{{asset('template/img/venue-gallery/8.jpg')}}" class="venobox" data-gall="venue-gallery">
+                <img src="{{asset('template/img/venue-gallery/8.jpg')}}" alt="" class="img-fluid">
               </a>
             </div>
           </div>
@@ -585,9 +583,9 @@
           <div class="col-lg-4 col-md-6">
             <div class="hotel">
               <div class="hotel-img">
-                <img src="img/hotels/1.jpg" alt="Hotel 1" class="img-fluid">
+                <img src="{{asset('template/img/hotels/1.jpg')}}" alt="Hotel 1" class="img-fluid">
               </div>
-              <h3><a href="#">Hotel 1</a></h3>
+              <h3><a href="http://www.realplazaags.com.mx" target="_blank">Hotel Real plaza</a></h3>
               <div class="stars">
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
@@ -595,16 +593,16 @@
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
               </div>
-              <p>0.4 Mile from the Venue</p>
+              <p>El Hotel Real Plaza Aguascalientes se localiza a pocos kilómetros de las principales atracciones turísticas de la ciudad</p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6">
             <div class="hotel">
               <div class="hotel-img">
-                <img src="img/hotels/2.jpg" alt="Hotel 2" class="img-fluid">
+                <img src="{{asset('template/img/hotels/2.jpg')}}" alt="Hotel 2" class="img-fluid">
               </div>
-              <h3><a href="#">Hotel 2</a></h3>
+              <h3><a href="https://www.hiltonhotels.com/es_XM/mexico/hampton-inn-and-suites-by-hilton-aguascalientes" target="_blank">Hampton Inn & Suites by Hilton Aguascalientes</a></h3>
               <div class="stars">
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
@@ -612,23 +610,23 @@
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star-half-full"></i>
               </div>
-              <p>0.5 Mile from the Venue</p>
+              <p>Hotel en las afueras en Aguascalientes con acceso fácil a un centro comercial y alberca al aire libre</p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6">
             <div class="hotel">
               <div class="hotel-img">
-                <img src="img/hotels/3.jpg" alt="Hotel 3" class="img-fluid">
+                <img src="{{asset('template/img/hotels/3.jpg')}}" alt="Hotel 3" class="img-fluid">
               </div>
-              <h3><a href="#">Hotel 3</a></h3>
+              <h3><a href="https://www.cityexpress.com/es-co/junior/hoteles-mexico/aguascalientes/aguascalientes/centro" target="_blank">City Express Junior Aguascalientes Centro</a></h3>
               <div class="stars">
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
               </div>
-              <p>0.6 Mile from the Venue</p>
+              <p>Sobre la Glorieta Juárez, a 3 minutos de Expo Plaza y a 10 minutos del centro histórico de la ciudad.</p>
             </div>
           </div>
 
@@ -650,14 +648,14 @@
       </div>
 
       <div class="owl-carousel gallery-carousel">
-        <a href="img/gallery/1.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/1.jpg" alt=""></a>
-        <a href="img/gallery/2.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/2.jpg" alt=""></a>
-        <a href="img/gallery/3.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/3.jpg" alt=""></a>
-        <a href="img/gallery/4.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/4.jpg" alt=""></a>
-        <a href="img/gallery/5.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/5.jpg" alt=""></a>
-        <a href="img/gallery/6.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/6.jpg" alt=""></a>
-        <a href="img/gallery/7.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/7.jpg" alt=""></a>
-        <a href="img/gallery/8.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/8.jpg" alt=""></a>
+        <a href="{{asset('template/img/gallery/1.jpg')}}" class="venobox" data-gall="gallery-carousel"><img src="{{asset('template/img/gallery/1.jpg')}}" alt=""></a>
+        <a href="{{asset('template/img/gallery/2.jpg')}}" class="venobox" data-gall="gallery-carousel"><img src="{{asset('template/img/gallery/2.jpg')}}" alt=""></a>
+        <a href="{{asset('template/img/gallery/3.jpg')}}" class="venobox" data-gall="gallery-carousel"><img src="{{asset('template/img/gallery/3.jpg')}}" alt=""></a>
+        <a href="{{asset('template/img/gallery/4.jpg')}}" class="venobox" data-gall="gallery-carousel"><img src="{{asset('template/img/gallery/4.jpg')}}" alt=""></a>
+        <a href="{{asset('template/img/gallery/5.jpg')}}" class="venobox" data-gall="gallery-carousel"><img src="{{asset('template/img/gallery/5.jpg')}}" alt=""></a>
+        <a href="{{asset('template/img/gallery/6.jpg')}}" class="venobox" data-gall="gallery-carousel"><img src="{{asset('template/img/gallery/6.jpg')}}" alt=""></a>
+        <a href="{{asset('template/img/gallery/7.jpg')}}" class="venobox" data-gall="gallery-carousel"><img src="{{asset('template/img/gallery/7.jpg')}}" alt=""></a>
+        <a href="{{asset('template/img/gallery/8.jpg')}}" class="venobox" data-gall="gallery-carousel"><img src="{{asset('template/img/gallery/8.jpg')}}" alt=""></a>
       </div>
 
     </section>
@@ -669,10 +667,10 @@
 
       <div class="container">
         <div class="section-header">
-          <h2>Patrocinadores</h2>
+          <h2>Patrocinadores proximamente</h2>
         </div>
 
-        <div class="row no-gutters supporters-wrap clearfix">
+        {{-- <div class="row no-gutters supporters-wrap clearfix">
 
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="supporter-logo">
@@ -722,7 +720,7 @@
             </div>
           </div>
 
-        </div>
+        </div> --}}
 
       </div>
 
@@ -950,7 +948,7 @@
     <!--==========================
       Contact Section
     ============================-->
-    <section id="contact" class="section-bg wow fadeInUp">
+    {{-- <section id="contact" class="section-bg wow fadeInUp">
 
       <div class="container">
 
@@ -1014,7 +1012,7 @@
         </div>
 
       </div>
-    </section><!-- #contact -->
+    </section><!-- #contact --> --}}
 
   </main>
 
@@ -1028,11 +1026,11 @@
         <div class="row">
 
           <div class="col-lg-3 col-md-6 footer-info">
-            <img src="img/logo.png" alt="TheEvenet">
-            <p>In alias aperiam. Placeat tempore facere. Officiis voluptate ipsam vel eveniet est dolor et totam porro. Perspiciatis ad omnis fugit molestiae recusandae possimus. Aut consectetur id quis. In inventore consequatur ad voluptate cupiditate debitis accusamus repellat cumque.</p>
+            <img src="{{asset('template/img/logo2.png')}}" alt="TheEvenet">
+            <p>Comictlan la fiesta mas grande de la imaginacion, con mas de 15 años de experiencia nos enfocamos en que nuestro publico disfrute al maximo su estadia en Comictlan, haciendo de nuestros espectaculos los mejores del estado ven y disfruta.</p>
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-links">
+          {{-- <div class="col-lg-3 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
               <li><i class="fa fa-angle-right"></i> <a href="#">Home</a></li>
@@ -1044,32 +1042,29 @@
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Useful Links</h4>
+            <h4>Links Utiles</h4>
             <ul>
               <li><i class="fa fa-angle-right"></i> <a href="#">Inicio</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="#">About us</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="#">Services</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="#">Privacy policy</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#">Nosotros</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#">Servicios</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#">Terminos de servicio</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#">Poolitica de privacidad</a></li>
             </ul>
-          </div>
+          </div> --}}
 
           <div class="col-lg-3 col-md-6 footer-contact">
-            <h4>Contact Us</h4>
+            <h4>Contactanos</h4>
             <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+              <i class="fa fa-whatsapp" aria-hidden="true"></i><strong> Whatsapp:</strong> 3318954525<br>
+              <i class="fa fa-envelope-o" aria-hidden="true"></i><strong> Email:</strong> hidalgoproducciones@yahoo.com.mx<br>
             </p>
 
             <div class="social-links">
-              <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-              <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-              <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+              {{-- <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> --}}
+              <a href="https://www.facebook.com/comictlan/" class="facebook"><i class="fa fa-facebook"></i></a>
+              {{-- <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
               <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
-              <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+              <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a> --}}
             </div>
 
           </div>
