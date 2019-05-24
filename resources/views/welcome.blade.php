@@ -118,7 +118,7 @@
             <div class="speaker">
               <img src="{{asset('template/img/speakers/7.jpg')}}" alt="Speaker 1" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.html">Juan Carlos Tinoco</a></h3>
+                <h3><a href="#">Juan Carlos Tinoco</a></h3>
                 <p>Actor del Doblaje</p>
                 <div class="social">
                   {{-- <a href=""><i class="fa fa-twitter"></i></a>
